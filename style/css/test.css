@@ -1,4 +1,5 @@
-.header { background-color: #fa0; }
-.header .aa { background-color: #fff; }
-.header .aa .bb { font-size: 14px; }
-.header .aa .bb .ff { font-size: 10px; }
+.header h1, .content h1, .footer h1 { font-size: 20px; }
+
+.content h1 { color: green; }
+
+.footer h1 { color: pink; }

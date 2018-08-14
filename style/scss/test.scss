@@ -1,14 +1,26 @@
 @charset "UTF-8";
 
-.header{
-    background-color: #fa0;
-    .aa{
-        background-color: #fff;
-        .bb{
-            font-size: 14px;
-            .ff{
-                font-size: 10px;
-            }
-        }
-    }
+// @import reset
+// @import layout
+// @import index
+// @import page
+// @import 其他css
+
+
+
+
+// sass
+%all-h1{
+    font-size: 20px;
+}
+.header h1{
+    @extend %all-h1;
+}
+.content h1{
+    @extend %all-h1;
+    color: green;
+}
+.footer h1{
+    @extend %all-h1;
+    color: pink;
 }
